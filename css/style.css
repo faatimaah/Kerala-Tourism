@@ -77,7 +77,7 @@ body{
 
 /* Form check styles*/
 
-.form-check {
+/* .form-check {
 	padding: 0;
 	text-align: left;
 }
@@ -89,7 +89,7 @@ body{
 	font-size: 15px;
 	color: #606060;
 	font-size: 14px;
-}
+} */
 
 .forgot-password {
 	text-align: right;
@@ -120,46 +120,7 @@ body{
 /* Hide default HTML checkbox */
 .switch input {display:none;}
 
-/* The slider */
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #F0F0F0;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border-radius: 30px;
-}
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 22px;
-  width: 22px;
-  left: 4px;
-  bottom: 4px;
-  background-color: #0f0f0f;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border-radius: 50%;
-}
-
-input:checked + .slider {
-  background-color: #00B72E;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #00B72E;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(30px);
-  -ms-transform: translateX(30px);
-  transform: translateX(30px);
-}
 
 
 
@@ -214,5 +175,44 @@ footer h5{
 /* .detail hr{
 	border: 2px solid;
 } */
+/* The slider */
+/* .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #F0F0F0;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 30px;
+}
 
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #0f0f0f;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #00B72E;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #00B72E;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(30px);
+  -ms-transform: translateX(30px);
+  transform: translateX(30px);
+} */
 
